@@ -1,0 +1,398 @@
+
+
+body {
+	margin:0px;
+	background:none;
+	height: 100%;
+	font-family: Ubuntu Condensed;
+}
+
+#background {
+
+		background: linear-gradient(rgba(246,246,246,0.57), rgba(237,237,237,0.08)),
+        rgba(0,0,0,0.55) url('https://wallpaperscraft.com/image/nature_mountains_sky_lake_clouds_81150_1920x1200.jpg') no-repeat center;
+        background-position:cover !important;
+        height:100vh!important;
+        width:auto;
+        z-index:1;
+}
+
+#entertowin {
+	color:#fff;
+	padding-top:25px;
+	font-size:40px;
+	letter-spacing: 1px;
+	font-family:Ubuntu Condensed;
+	font-weight:800;
+	text-shadow: 2px 2px 2px rgba(76,76,76,1);
+}
+
+#enterbutton {
+	background-color:green;
+	font-size:24px;
+	font-family:Ubuntu Condensed;
+	box-shadow:2px 2px 2px rgba(76,76,76,1);
+	border:none;
+	color:#fff;
+	border-radius:3px;
+}
+
+.blackbg {
+	background-color:#000;
+	margin-top:-75px;
+}
+
+tr {
+	display:inline;
+	text-align:center;
+}
+
+blockquote {
+	padding-top:1.2em;
+}
+
+#hptopsection {
+    min-height:100% !important;
+    min-width:100%;
+    background-color:transparent;
+    display:flex;
+    align-items:stretch;
+    position:relative;
+    z-index:2;
+}
+
+#hptopsection div {
+	color:orange;
+	font-size:44px;
+	text-align:center;
+    margin:auto;
+    z-index:1;
+    text-shadow:2px 2px 2px #000;
+}
+
+
+#mypersonalinfo {
+    min-height:100vh !important;
+    min-width:100%;
+    background-color:transparent;
+    display:flex;
+    align-items:stretch;
+    position:relative;
+}
+
+#header {
+	background-color:#ffffff;
+	height:35px;
+	margin:0;
+	padding:0px;
+	text-align:center;
+	position:static;
+	z-index:2 !important;
+}
+
+#header div {
+	display:inline-block;
+	font-family: Ubuntu Condensed;
+	font-size:18px;
+	margin-right:0px;
+	border:none;
+	padding:4px 5px 4px 5px;
+	text-transform:uppercase;
+	color: #000000;
+	letter-spacing:0.3em;
+}
+
+
+
+footer {
+	height:30px;
+	background-color:#000;
+	color:#fff;
+	padding:10px 0 10px 0;
+    text-align:center;
+    box-shadow: inset 0 20px 20px -20px rgba(76,76,76,1);
+}
+
+.hpsection {
+	background-color:#ffffff;
+	margin:auto;
+	padding-top:35px;
+	padding-left:15%;
+	padding-right:15%;
+}
+
+
+#hpsection img {
+	display:inline-block !important;
+	padding:100px !important;
+}
+
+#imagebar img {
+	height:230px;
+	width:auto;
+	display:inline;
+	border:none;
+	margin-left:-4px;
+	margin-top:-5px;
+	padding-bottom:0px;
+}
+
+#imagebar img:hover {
+	opacity:0.5;
+}
+
+#imagebar {
+	overflow: auto;
+	background:#000;
+}
+
+
+#imagebar::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+#imagebar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+#imagebar::-webkit-scrollbar-thumb {
+  background-color: #67a0fc;
+  outline: 1px solid slategrey;
+  border-radius:3px;
+}
+
+
+/********************************
+ABOUT
+********************************/
+
+.aboutsection {
+	margin:auto;
+	padding-left:15%;
+	padding-right:15%;
+	padding-top:25px;
+	padding-bottom:25px;
+	background-color:#fff;
+}
+
+#abouttopsection {
+	padding-left:15%;
+	padding-top:65px;
+	padding-bottom:65px;
+	display:inline-block;
+}
+
+#abouttopsection img {
+	border-radius:50% !important;
+	width:100%;
+	float:left;
+	box-shadow:5px 5px 5px rgba(76,76,76,1);
+}
+
+#c1 {
+	width:33%;
+}
+
+#c2 {
+	text-shadow: 2px 2px 2px rgba(76,76,76,1);
+	color:#fff;
+	width:67%;
+	font-size:20px
+}
+
+
+.whitebg {
+	background-color:#fff;
+	margin-bottom: -17px;
+}
+
+
+
+#textabout {
+	width:65%;
+	margin:auto;
+	background-color:#fff;
+	padding-top:45px;
+	padding-bottom:55px;
+	font-size:18px;
+}
+
+#social {
+		margin-top:5px auto 5px auto !important;
+		text-align: center;
+}
+
+#social img {
+	height:65px;
+}
+
+
+/********************************
+CONTACT PAGE
+********************************/
+
+#contact-form {
+	background-color:white;
+	width:50%;
+	border-radius:5px;
+	border:none;
+	margin:auto;
+	padding:30px;
+}
+
+fieldset {
+	border:none;
+}
+
+#message-area {
+	width: 80%;
+    height: 85px;
+    float: right;
+    word-wrap:break-word; 
+}
+
+legend {
+	text-align:center;
+	text-transform:uppercase;
+	font-size:24px;
+	padding-bottom:15px;
+}
+
+#contact-button {
+	float:left;
+	clear:both;
+	background-color:orange;
+	border:none;
+	width:75px;
+	height:35px;
+	padding:4px;
+	border-radius:5px;
+	font-family: Ubuntu Condensed;
+	font-weight:400;
+	font-size:18px;
+	box-shadow:2px 2px 2px rgba(76,76,76,1);
+}
+
+#contact-button:hover {
+	opacity:0.9;
+}
+
+#contactpage {
+    min-height:100vh !important;
+    min-width:100%;
+    margin-bottom: -35px;
+    background-color:transparent;
+    display:flex;
+    align-items:stretch;
+    position:relative;
+}
+
+
+#contact-form {
+	    box-shadow:5px 5px 5px rgba(76,76,76,1);
+}
+
+#contact-form input {
+	border-radius: 3px;
+}
+
+/**************************************************
+RESPONSIVE CSS
+**************************************************/
+
+@media only screen and (max-width: 1200px) {
+    [id="c2"] {
+        float:left;
+        clear:left;
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    	[id="about-link"] {
+        float:left;
+        clear:left;
+        width:100%;
+    }
+    	[id="contact-link"] {
+        float:left;
+        clear:left;
+        width:100%;
+    }
+        [class="nav-pipe"] {
+        display:none !important;
+    }
+        [id="header"] {
+        height:90px !important;
+    }    
+    	[id="hptopsection"] {
+        margin-bottom: -140px;
+    }
+    	[id="blockquote"] {
+        font-size:30px !important;
+        padding-top: 0;
+       	margin-top: 55px !important;
+    }   
+    	[id="c1"] {
+    width: 100%;
+    text-align: center;
+    padding:auto;
+}
+    	[id="#c2"] {
+    width: 90% !important;
+    text-align: center !important;
+} 
+}
+
+@media only screen and (max-width: 1280px) {
+fieldset {
+    border: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.label:after {
+    content:"\000A";
+    white-space: pre;
+}
+#contact-button {
+	margin-top:8px;
+}
+#message-area {
+	width:100%;
+}
+#contact-form {
+	margin-top:50px;
+	margin-bottom:50px;
+	width: 300px;
+}
+label {
+	float:right;
+	clear:both;
+		margin:auto;
+}
+}
+
+@media only screen and (max-width: 800px) {
+[id="aboutimage"] {
+	width:235px !important;
+}
+
+@media only screen and (max-width: 400px) {
+    	[id="footer-text"] {
+        word-wrap:break-word;
+    }
+@media only screen and (max-width: 400px) {
+    	[id="footer"] {
+        height:65px;
+        margin-top: -248px;
+        margin-bottom: 0;
+    }
+@media only screen and (max-width: 600px) {
+[id="imagebar"] {
+	visibility: hidden;
+	margin-bottom: -160px;
+}
+}    
+
+ 
